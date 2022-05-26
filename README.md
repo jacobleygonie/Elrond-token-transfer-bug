@@ -23,7 +23,7 @@ In Mandos tests we consider the four exclusive possibilities:
 3. The receiver is a contract and the data is empty.
 4. The receiver is a contract and the data is non-empty.
 
-All the tests pass, except the last on for which the error message is
+All the tests pass, except the last one for which the error message is
 `5 (out of gas). Message: not enough gas`
 
 ## Reproducing the bug
