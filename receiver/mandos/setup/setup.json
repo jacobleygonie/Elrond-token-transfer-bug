@@ -1,0 +1,22 @@
+{
+  "name": "setup",
+  "steps": [
+    {
+      "step": "setState",
+      "accounts": {
+        "address:user": {
+          "balance": "10,000,000,000,000"
+        },
+        "sc:receiver": {
+          "code": "file:../../output/receiver.wasm"
+        },
+        "sc:sender": {
+          "esdt": {
+            "str:MEX-455c57": "10,000,000,000,000,000,000,000"
+          },
+          "code": "file:../../../sender/output/sender.wasm"
+        }
+      }
+    }
+  ]
+}
